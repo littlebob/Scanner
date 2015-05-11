@@ -13,6 +13,7 @@
 		2A3F2BB01857FB1600EE7A96 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A3F2BAF1857FB1600EE7A96 /* MessageUI.framework */; };
 		2A5AA3841771397A0092391A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A5AA3831771397A0092391A /* OpenGLES.framework */; };
 		2A77E05E1B00803200B652CA /* Structure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A77E05D1B00803200B652CA /* Structure.framework */; };
+		2A77E0601B00809800B652CA /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A77E05F1B00809800B652CA /* opencv2.framework */; };
 		2AB8B9C717EA78280097C231 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AB8B9C617EA78280097C231 /* AVFoundation.framework */; };
 		2AB8B9CB17EA786F0097C231 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AB8B9CA17EA786F0097C231 /* CoreVideo.framework */; };
 		2AB8B9CD17EA78860097C231 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AB8B9CC17EA78860097C231 /* CoreMedia.framework */; };
@@ -64,6 +65,7 @@
 		2A3F2BAF1857FB1600EE7A96 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		2A5AA3831771397A0092391A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		2A77E05D1B00803200B652CA /* Structure.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Structure.framework; path = Frameworks/Structure.framework; sourceTree = "<group>"; };
+		2A77E05F1B00809800B652CA /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = Frameworks/opencv2.framework; sourceTree = "<group>"; };
 		2A93E232185133880049CEBE /* ViewpointController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewpointController.h; sourceTree = "<group>"; };
 		2AB8B9C617EA78280097C231 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		2AB8B9C817EA78590097C231 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -137,6 +139,7 @@
 				2AB8B9C717EA78280097C231 /* AVFoundation.framework in Frameworks */,
 				2A5AA3841771397A0092391A /* OpenGLES.framework in Frameworks */,
 				2AFC8E19176FD4D600F7F3B5 /* ExternalAccessory.framework in Frameworks */,
+				2A77E0601B00809800B652CA /* opencv2.framework in Frameworks */,
 				2AFC8D78176F966000F7F3B5 /* UIKit.framework in Frameworks */,
 				2AFC8D7A176F966000F7F3B5 /* Foundation.framework in Frameworks */,
 				2AFC8D7E176F966000F7F3B5 /* GLKit.framework in Frameworks */,
@@ -169,6 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				7EAD26B2198B47DA00638C9C /* libz.dylib */,
+				2A77E05F1B00809800B652CA /* opencv2.framework */,
 				2A77E05D1B00803200B652CA /* Structure.framework */,
 				2A3F2BAF1857FB1600EE7A96 /* MessageUI.framework */,
 				2A0BA3E318500398008FBE2E /* CoreImage.framework */,
